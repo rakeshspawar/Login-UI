@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rpcoder-login-ui</title>
+</head>
+<body>
+	<style type="text/css">
+		.login-div{
+			align-self: center;
+			width: 430px;
+			height: 500px;
+			padding: 40px 35px 35px 35px;
+			border-radius: 40px;
+			background: #a79097;
+			box-shadow: 13px 13px 20px, 13px 13px 20px;
+		}
+		.logo{
+			background: url("logo.jpg");
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			margin: 0 auto;
+			box-shadow:/*logo shadow*/ 0px 0px 2px, /*offset*/ 0px 0px 0px 5px,/*bottom right*/ 8px 8px 15px,/*top left*/ -8px -8px 15px;
+		}
+		.title{
+			text-align: center;
+			font-size: 28px;
+			padding: 15px;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+		}
+		.sub-title{
+			text-align: center;
+			font-size: 15px;
+			padding: 5px;
+			font-weight: 800;
+			letter-spacing: 3px;
+		}
+		.fields{
+			width: 100%;
+			padding: 30px 5px 5px 5px;
+		}
+		.fields input{
+			border: none;
+			outline: none;
+			background: none;
+			font-size: 18px;
+			color: white;
+			font-weight: 800;
+			padding: 20px 10px 20px 5px;
+		}
+		.username, .password{
+			margin-bottom: 30px;
+			border-radius: 25px;
+			background: #1a1a1a;
+			text-align: left;
+			padding-right: 2px;
+			box-shadow: inset 8px 8px 8px, inset -8px -8px 8px;
+		}
+		.fields svg{
+			height: 22px;
+			margin: 0 10px -3px 25px;
+		}
+		.signin-button{
+			outline: none;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			height: 60px;
+			border-radius: 30px;
+			font-size: 20px;
+			font-weight: 700;
+			font-family: 'Lato', sans-serif;
+			color: #fff;
+			text-align: center;
+			background: #24cfaa;
+			box-shadow: 3px 3px 8px, -3px -3px 8px;
+			transition: 0.5s;
+		}
+		.signin-button:hover{
+			background: #2fdbb6;
+		}
+		.signin-button:active{
+			background: #1da88a;
+		}
+		.link{
+			padding-top: 20px;
+			color: black;
+			text-align: center;
+		}
+		.link a{
+			text-decoration: none;
+			color: red;
+			font-weight: 600;
+			font-size: 15px;
+		}
+	</style>
+
+<center>
+<div class="login-div">
+	<div class="logo"></div>
+	<div class="title">rpcoder</div>
+	<div class="sub-title">RAKESH PAWAR</div>
+	<div class="fields">
+		<div class="username"><input type="username" class="user-input" placeholder="Username"/></div>
+		<div class="password"><input type="password" class="pass-input" placeholder="Password"/></div>
+	</div>
+	<button class="signin-button">Login</button>
+	<div class="link">
+		<a href="#">Forgot Password?</a> or <a href="#">Sign Up</a>
+	</div>
+</div>
+</center>
+</body>
+</html>
